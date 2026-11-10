@@ -1,0 +1,459 @@
+{
+  "model": "MiniMax-M2.7",
+  "rubric": "structure (20%) + specificity (30%) + completeness (30%) + conciseness (20%)",
+  "n_scored": 51,
+  "n_failed": 0,
+  "composite_distribution": {
+    "0.2": 1,
+    "0.3": 1,
+    "0.4": 1,
+    "0.5": 7,
+    "0.6": 8,
+    "0.7": 15,
+    "0.8": 15,
+    "0.9": 3
+  },
+  "dimension_stats": {
+    "structure": {
+      "min": 0.3,
+      "max": 0.88,
+      "mean": 0.694,
+      "median": 0.7
+    },
+    "specificity": {
+      "min": 0.15,
+      "max": 0.9,
+      "mean": 0.671,
+      "median": 0.7
+    },
+    "completeness": {
+      "min": 0.1,
+      "max": 0.88,
+      "mean": 0.616,
+      "median": 0.65
+    },
+    "conciseness": {
+      "min": 0.2,
+      "max": 0.9,
+      "mean": 0.717,
+      "median": 0.75
+    }
+  },
+  "results": {
+    "afrexai-qa-test-plan": {
+      "structure": 0.75,
+      "specificity": 0.65,
+      "completeness": 0.5,
+      "conciseness": 0.8,
+      "notes": "Good templates and concrete numbers but lacks explicit trigger/verification sections and tool-specific guidance.",
+      "composite": 0.655
+    },
+    "browser-contenteditable-workaround": {
+      "structure": 0.82,
+      "specificity": 0.88,
+      "completeness": 0.82,
+      "conciseness": 0.9,
+      "notes": "Excellent specificity with concrete JS commands and real paths, but completeness slightly dinged for missing a labeled 'When to use' section header.",
+      "composite": 0.854
+    },
+    "browser-use": {
+      "structure": 0.85,
+      "specificity": 0.82,
+      "completeness": 0.7,
+      "conciseness": 0.72,
+      "notes": "Solid concrete examples and multiple automation patterns, but lacks explicit verification steps and some sections like Research Pattern would benefit from numbered steps.",
+      "composite": 0.77
+    },
+    "ci-cd-pipeline": {
+      "structure": 0.3,
+      "specificity": 0.15,
+      "completeness": 0.1,
+      "conciseness": 0.2,
+      "notes": "Malformed frontmatter, duplicates, and marketing fluff; provides no actionable CI/CD configuration commands or steps.",
+      "composite": 0.175
+    },
+    "codebase-documenter": {
+      "structure": 0.55,
+      "specificity": 0.45,
+      "completeness": 0.55,
+      "conciseness": 0.6,
+      "notes": "Skill covers documentation types comprehensively with templates, but lacks explicit trigger conditions, verification steps, concrete shell commands, and has malformed duplicated frontmatter.",
+      "composite": 0.53
+    },
+    "coderag": {
+      "structure": 0.88,
+      "specificity": 0.9,
+      "completeness": 0.78,
+      "conciseness": 0.85,
+      "notes": "Excellent specificity with real commands and configs, but completeness suffers from missing verification output examples and troubleshooting paths for failed queries.",
+      "composite": 0.85
+    },
+    "constitution-check": {
+      "structure": 0.7,
+      "specificity": 0.55,
+      "completeness": 0.5,
+      "conciseness": 0.8,
+      "notes": "Principles-focused skill lacking concrete examples of rule violations or verification steps; mentions an external plugin doc but no executable commands.",
+      "composite": 0.615
+    },
+    "cto": {
+      "structure": 0.62,
+      "specificity": 0.55,
+      "completeness": 0.72,
+      "conciseness": 0.75,
+      "notes": "Strong framework with good tables and decision checklists, but duplicated frontmatter is malformed and lacks any executable commands or code examples.",
+      "composite": 0.655
+    },
+    "delegation": {
+      "structure": 0.55,
+      "specificity": 0.4,
+      "completeness": 0.45,
+      "conciseness": 0.65,
+      "notes": "Doubled YAML frontmatter with invalid description, abstract principles without concrete commands, paths, or examples\u2014agents will struggle to act on this.",
+      "composite": 0.495
+    },
+    "dogfood": {
+      "structure": 0.88,
+      "specificity": 0.78,
+      "completeness": 0.72,
+      "conciseness": 0.82,
+      "notes": "Well-structured systematic QA workflow with concrete browser tool commands, but lacks example invocation and relies on external unreferenced files (issue-taxonomy.md, report-template.md) for critical content.",
+      "composite": 0.79
+    },
+    "download-anything": {
+      "structure": 0.65,
+      "specificity": 0.8,
+      "completeness": 0.58,
+      "conciseness": 0.75,
+      "notes": "Good tooling and decision tree, but missing verification step, has duplicate/broken frontmatter, and references external files not included in the skill.",
+      "composite": 0.694
+    },
+    "frontend-agent": {
+      "structure": 0.7,
+      "specificity": 0.45,
+      "completeness": 0.45,
+      "conciseness": 0.6,
+      "notes": "This is a persona/role description rather than an executable skill\u2014lacks real shell commands, concrete file paths, or verification steps.",
+      "composite": 0.53
+    },
+    "frontend-design-pro": {
+      "structure": 0.72,
+      "specificity": 0.68,
+      "completeness": 0.6,
+      "conciseness": 0.75,
+      "notes": "Solid design principles and anti-patterns, but lacks verification steps and actual command outputs in examples.",
+      "composite": 0.678
+    },
+    "frontend-performance": {
+      "structure": 0.8,
+      "specificity": 0.6,
+      "completeness": 0.75,
+      "conciseness": 0.78,
+      "notes": "Solid methodology with good structure and tables, but lacks concrete shell commands or copy-pasteable code blocks; specificity suffers from being mostly framework guidance rather than actionable commands.",
+      "composite": 0.721
+    },
+    "graphiti": {
+      "structure": 0.65,
+      "specificity": 0.65,
+      "completeness": 0.4,
+      "conciseness": 0.75,
+      "notes": "Missing trigger section and verification steps; env-check.sh usage pattern is unclear and may not be directly actionable.",
+      "composite": 0.595
+    },
+    "idea-validation-workflow": {
+      "structure": 0.8,
+      "specificity": 0.78,
+      "completeness": 0.65,
+      "conciseness": 0.55,
+      "notes": "Good concrete commands and examples, but bloated by redundant sections (generic ideas mentioned twice, file lists that aren't actionable), missing explicit verification step.",
+      "composite": 0.699
+    },
+    "kagglerun-flux": {
+      "structure": 0.85,
+      "specificity": 0.88,
+      "completeness": 0.8,
+      "conciseness": 0.78,
+      "notes": "Strong technical skill with concrete commands and scripts, but repetition of GPU sm_60 issues across sections and a duplicate heading reduce conciseness.",
+      "composite": 0.83
+    },
+    "last30days-skill": {
+      "structure": 0.65,
+      "specificity": 0.85,
+      "completeness": 0.7,
+      "conciseness": 0.75,
+      "notes": "Double YAML frontmatter is malformed (first block has blank description), but the main content is highly specific with real commands and flags; truncated end prevents full completeness assessment.",
+      "composite": 0.745
+    },
+    "llm-fallback-minimax": {
+      "structure": 0.65,
+      "specificity": 0.55,
+      "completeness": 0.45,
+      "conciseness": 0.6,
+      "notes": "Describes a fallback mechanism but lacks actionable agent steps, verification steps, or example invocation; the concrete SSL bypass code is useful but tangential to the main skill's purpose.",
+      "composite": 0.55
+    },
+    "manim-animation-en": {
+      "structure": 0.58,
+      "specificity": 0.72,
+      "completeness": 0.76,
+      "conciseness": 0.75,
+      "notes": "Good content with concrete commands and pitfalls, but YAML frontmatter has duplicate name fields and empty description, and double-subtitle warning is repeated.",
+      "composite": 0.71
+    },
+    "memory-setup-openclaw": {
+      "structure": 0.55,
+      "specificity": 0.7,
+      "completeness": 0.65,
+      "conciseness": 0.8,
+      "notes": "Broken dual frontmatter with empty first block; concrete config examples but restart command and exact memory_search syntax missing.",
+      "composite": 0.675
+    },
+    "mermaid-architect": {
+      "structure": 0.65,
+      "specificity": 0.68,
+      "completeness": 0.6,
+      "conciseness": 0.78,
+      "notes": "Good fundamentals with concrete rules and validation, but duplicate frontmatter and listing capabilities instead of sequential steps reduce completeness.",
+      "composite": 0.67
+    },
+    "minimax-music": {
+      "structure": 0.85,
+      "specificity": 0.85,
+      "completeness": 0.85,
+      "conciseness": 0.5,
+      "notes": "Rich in concrete details and experiential findings, but suffers from significant repetition (batch generation section appears twice, same code snippets reused) and verbose prose that could be consolidated.",
+      "composite": 0.78
+    },
+    "minimax-tts-video": {
+      "structure": 0.65,
+      "specificity": 0.85,
+      "completeness": 0.65,
+      "conciseness": 0.7,
+      "notes": "Very detailed and concrete but lacks an explicit When-to-use trigger section and verification steps.",
+      "composite": 0.72
+    },
+    "monitor-intelligence-services": {
+      "structure": 0.85,
+      "specificity": 0.72,
+      "completeness": 0.62,
+      "conciseness": 0.85,
+      "notes": "Good structure and commands, but the core monitoring script content is missing so an agent cannot fully implement the self-healing capability described.",
+      "composite": 0.742
+    },
+    "neural-memory": {
+      "structure": 0.72,
+      "specificity": 0.7,
+      "completeness": 0.58,
+      "conciseness": 0.85,
+      "notes": "Good structure and concise prose, but lacks explicit trigger conditions, verification steps, and complete working examples with expected output.",
+      "composite": 0.698
+    },
+    "paperbanana": {
+      "structure": 0.55,
+      "specificity": 0.72,
+      "completeness": 0.6,
+      "conciseness": 0.78,
+      "notes": "Good command examples and parameter table, but YAML frontmatter is duplicated/malformed, no trigger section, and lacks numbered step sequences.",
+      "composite": 0.662
+    },
+    "peepshow": {
+      "structure": 0.8,
+      "specificity": 0.88,
+      "completeness": 0.72,
+      "conciseness": 0.8,
+      "notes": "Comprehensive documentation with concrete commands and real flags, but lacks explicit verification steps or pitfalls section.",
+      "composite": 0.8
+    },
+    "pexoai-agent": {
+      "structure": 0.82,
+      "specificity": 0.88,
+      "completeness": 0.85,
+      "conciseness": 0.88,
+      "notes": "Well-organized with concrete commands and explicit anti-patterns, but frontmatter has redundant blocks and description field is just a placeholder.",
+      "composite": 0.859
+    },
+    "proactive-agent-lite": {
+      "structure": 0.35,
+      "specificity": 0.15,
+      "completeness": 0.2,
+      "conciseness": 0.4,
+      "notes": "Marketing brochure, not a usable skill\u2014no commands, no steps, no concrete examples, duplicated malformed frontmatter, just feature/benefit lists with vague prose.",
+      "composite": 0.255
+    },
+    "qa-testing-bots": {
+      "structure": 0.82,
+      "specificity": 0.83,
+      "completeness": 0.72,
+      "conciseness": 0.88,
+      "notes": "Solid skill with concrete code examples and proper structure, but lacks an explicit When to Use trigger section and dedicated Gotchas/Pitfalls section.",
+      "composite": 0.805
+    },
+    "security-auditor": {
+      "structure": 0.85,
+      "specificity": 0.9,
+      "completeness": 0.85,
+      "conciseness": 0.85,
+      "notes": "Excellent concrete examples with real code, commands, and tools; double frontmatter is harmless but redundant.",
+      "composite": 0.865
+    },
+    "self-improving-agent": {
+      "structure": 0.85,
+      "specificity": 0.45,
+      "completeness": 0.55,
+      "conciseness": 0.7,
+      "notes": "Well-structured but lacks concrete tools/commands and verification steps; examples are templates rather than copy-pasteable invocations.",
+      "composite": 0.61
+    },
+    "senior-architect": {
+      "structure": 0.55,
+      "specificity": 0.6,
+      "completeness": 0.7,
+      "conciseness": 0.7,
+      "notes": "Malformed duplicate frontmatter with placeholder description; no dedicated When to use section; commands reference hypothetical scripts rather than real tools.",
+      "composite": 0.64
+    },
+    "sulada-knowledge-base": {
+      "structure": 0.6,
+      "specificity": 0.3,
+      "completeness": 0.25,
+      "conciseness": 0.65,
+      "notes": "Vague conceptual overview without real commands, triggers, or step-by-step workflow; agent could not act on this as-is.",
+      "composite": 0.415
+    },
+    "system-architect": {
+      "structure": 0.55,
+      "specificity": 0.35,
+      "completeness": 0.4,
+      "conciseness": 0.65,
+      "notes": "Lists references and capabilities but provides no executable commands, concrete examples, or actual template content\u2014an agent cannot act on this.",
+      "composite": 0.465
+    },
+    "test-master": {
+      "structure": 0.55,
+      "specificity": 0.4,
+      "completeness": 0.5,
+      "conciseness": 0.65,
+      "notes": "Malformed duplicate frontmatter and tool names without actionable commands; lacks verification steps and concrete code examples.",
+      "composite": 0.51
+    },
+    "tianshu-wan-video": {
+      "structure": 0.45,
+      "specificity": 0.7,
+      "completeness": 0.4,
+      "conciseness": 0.65,
+      "notes": "Description frontmatter is '---' (empty), no trigger section, minimal verification steps; concrete commands save the score.",
+      "composite": 0.55
+    },
+    "use-tools": {
+      "structure": 0.85,
+      "specificity": 0.88,
+      "completeness": 0.68,
+      "conciseness": 0.85,
+      "notes": "Strong specificity with real paths/commands, but missing explicit verification step and the trigger condition (exact phrase) is narrower than the description implies.",
+      "composite": 0.808
+    },
+    "whatsapp-bulk-sender": {
+      "structure": 0.55,
+      "specificity": 0.65,
+      "completeness": 0.5,
+      "conciseness": 0.3,
+      "notes": "Reads as a session transcript/lessons-learned doc rather than a usable skill\u2014verbose prose, repeated critical warnings, and no clear numbered workflow make it hard for an agent to follow.",
+      "composite": 0.515
+    },
+    "yuanbao": {
+      "structure": 0.88,
+      "specificity": 0.87,
+      "completeness": 0.72,
+      "conciseness": 0.88,
+      "notes": "Excellent specificity with real JSON examples and clear rules, but verification/validation steps are missing, and some sections (Query Group Info, Query Members) feel underdeveloped.",
+      "composite": 0.829
+    },
+    "afrexai-qa-testing-engine": {
+      "structure": 0.82,
+      "specificity": 0.75,
+      "completeness": 0.78,
+      "conciseness": 0.88,
+      "notes": "Comprehensive methodology with excellent structure and tables, but lacks explicit When-to-use trigger and contains truncated content at end.",
+      "composite": 0.799
+    },
+    "comprehensive-tech-documentation": {
+      "structure": 0.65,
+      "specificity": 0.55,
+      "completeness": 0.6,
+      "conciseness": 0.5,
+      "notes": "Comprehensive templates but bloated with duplication, malformed frontmatter, and no concrete skill invocation examples.",
+      "composite": 0.575
+    },
+    "deer-flow": {
+      "structure": 0.75,
+      "specificity": 0.88,
+      "completeness": 0.78,
+      "conciseness": 0.65,
+      "notes": "Very concrete and actionable with real commands/paths/flags, but missing an explicit 'When to use' trigger section and contains duplicate troubleshooting entries that bloat the document.",
+      "composite": 0.778
+    },
+    "frontend": {
+      "structure": 0.55,
+      "specificity": 0.45,
+      "completeness": 0.5,
+      "conciseness": 0.75,
+      "notes": "Malformed duplicate frontmatter, no code blocks or verifiable steps, references external docs without paths or usage context.",
+      "composite": 0.545
+    },
+    "gepa-self-evolution": {
+      "structure": 0.75,
+      "specificity": 0.82,
+      "completeness": 0.72,
+      "conciseness": 0.75,
+      "notes": "Missing explicit When-to-use trigger; concrete commands and lessons but lacks numbered steps and some info is repeated across sections.",
+      "composite": 0.762
+    },
+    "pexoai-agent_temp": {
+      "structure": 0.85,
+      "specificity": 0.82,
+      "completeness": 0.88,
+      "conciseness": 0.78,
+      "notes": "Solid skill with comprehensive workflow, concrete commands, and good coverage; minor structure issue with duplicate frontmatter and some sections slightly verbose.",
+      "composite": 0.836
+    },
+    "senior-security": {
+      "structure": 0.55,
+      "specificity": 0.58,
+      "completeness": 0.62,
+      "conciseness": 0.7,
+      "notes": "Has malformed duplicate frontmatter with invalid description, file appears truncated, lacks real command invocations but has good tables and workflow steps.",
+      "composite": 0.61
+    },
+    "x-research": {
+      "structure": 0.85,
+      "specificity": 0.9,
+      "completeness": 0.75,
+      "conciseness": 0.88,
+      "notes": "Strong skill with concrete commands and a clear research loop, but lacks an explicit verification section showing what success looks like.",
+      "composite": 0.841
+    },
+    "adhd-body-doubling": {
+      "structure": 0.7,
+      "specificity": 0.78,
+      "completeness": 0.72,
+      "conciseness": 0.58,
+      "notes": "Solid specificity with concrete session flows, but missing explicit When-to-use trigger section and ~40% of content is promotional material that should be trimmed.",
+      "composite": 0.706
+    },
+    "bird-twitter": {
+      "structure": 0.65,
+      "specificity": 0.88,
+      "completeness": 0.72,
+      "conciseness": 0.75,
+      "notes": "Duplicate YAML frontmatter at the top is a parsing issue; lacks an explicit 'When to use' trigger section but has comprehensive commands and troubleshooting.",
+      "composite": 0.76
+    }
+  },
+  "failures": [],
+  "composite_stats": {
+    "min": 0.175,
+    "max": 0.865,
+    "mean": 0.671,
+    "median": 0.698
+  }
+}

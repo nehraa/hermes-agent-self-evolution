@@ -1,0 +1,2204 @@
+{
+  "version": "1.0",
+  "skills": {
+    "github-code-review": {
+      "status": "missing",
+      "iterations": 3,
+      "results": {
+        "baseline": 0.9,
+        "evolved": 0.9
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/github-code-review"
+    },
+    "notion": {
+      "status": "missing",
+      "dataset_path": "datasets/skills/notion",
+      "iterations": 5,
+      "last_run": "2026-05-27T10:29:52.263080",
+      "results": {
+        "elapsed_seconds": 5.2,
+        "matches": [
+          "0.727"
+        ],
+        "checks": {
+          "passed": 6,
+          "failed": 3
+        },
+        "baseline_score": 0.7272793098322633,
+        "evolved_score": 0.7272793098322633,
+        "improvement": 0.0
+      },
+      "error": null
+    },
+    "kaggle-sdxl-image-gen": {
+      "status": "missing",
+      "dataset_path": "datasets/skills/kaggle-sdxl-image-gen",
+      "iterations": 5,
+      "last_run": "2026-05-27T10:44:41.101498",
+      "results": {
+        "elapsed_seconds": 402.6,
+        "matches": [
+          "0.710"
+        ],
+        "checks": {
+          "passed": 7,
+          "failed": 1
+        },
+        "baseline_score": 0.7097062971342382,
+        "evolved_score": 0.7425395550527903,
+        "improvement": 0.03283325791855218
+      },
+      "error": null
+    },
+    "kagglerun-flux": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kagglerun-flux",
+      "last_round": 6
+    },
+    "aidutech-outreach": {
+      "status": "missing",
+      "dataset_path": "datasets/skills/aidutech-outreach",
+      "iterations": 5,
+      "last_run": "2026-05-27T10:40:33.632410",
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.8
+      },
+      "error": null
+    },
+    "abhinav-life-story": {
+      "status": "missing",
+      "iterations": 0,
+      "last_run": null,
+      "results": {
+        "baseline": 0.8,
+        "evolved": 0.9
+      },
+      "error": null
+    },
+    "adhd-body-doubling": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/adhd-body-doubling",
+      "last_round": 7
+    },
+    "afrexai-qa-test-plan": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/afrexai-qa-test-plan",
+      "last_round": 7
+    },
+    "afrexai-qa-testing-engine": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 0.95,
+        "evolved": 0.95,
+        "metric": "structural_v0"
+      },
+      "dataset_path": "datasets/skills/afrexai-qa-testing-engine",
+      "last_round": 7,
+      "error": null
+    },
+    "ai-video-production": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ai-video-production"
+    },
+    "airtable": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/airtable"
+    },
+    "analyze-agent-backup": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/analyze-agent-backup"
+    },
+    "apple-notes": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/apple-notes"
+    },
+    "apple-reminders": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/apple-reminders"
+    },
+    "architecture-diagram": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/architecture-diagram"
+    },
+    "arxiv": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/arxiv"
+    },
+    "ascii-art": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ascii-art"
+    },
+    "ascii-video": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ascii-video"
+    },
+    "audiocraft": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/audiocraft"
+    },
+    "avatar-video-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/avatar-video-pipeline"
+    },
+    "axolotl": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/axolotl"
+    },
+    "baoyu-article-illustrator": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/baoyu-article-illustrator"
+    },
+    "baoyu-comic": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/baoyu-comic"
+    },
+    "baoyu-infographic": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/baoyu-infographic"
+    },
+    "bird-twitter": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/bird-twitter",
+      "last_round": 7
+    },
+    "blogwatcher": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/blogwatcher"
+    },
+    "brain-index": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/brain-index"
+    },
+    "brochure-generator": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/brochure-generator"
+    },
+    "browser-contenteditable-workaround": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/browser-contenteditable-workaround",
+      "last_round": 7
+    },
+    "browser-use": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/browser-use",
+      "last_round": 7
+    },
+    "chrome-remote-debugging": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/chrome-remote-debugging"
+    },
+    "ci-cd-pipeline": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/ci-cd-pipeline",
+      "last_round": 7
+    },
+    "claude-code": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/claude-code"
+    },
+    "claude-design": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/claude-design"
+    },
+    "clip": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/clip"
+    },
+    "codebase-documenter": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/codebase-documenter",
+      "last_round": 7
+    },
+    "codebase-inspection": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/codebase-inspection"
+    },
+    "coderag": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/coderag",
+      "last_round": 7
+    },
+    "codex": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/codex"
+    },
+    "cogvideox-kaggle-debug": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/cogvideox-kaggle-debug"
+    },
+    "comfyui": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/comfyui"
+    },
+    "comprehensive-tech-documentation": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/comprehensive-tech-documentation",
+      "last_round": 7
+    },
+    "connector-research": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/connector-research"
+    },
+    "constitution-check": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/constitution-check",
+      "last_round": 7
+    },
+    "creative-ideation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/creative-ideation"
+    },
+    "cto": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/cto",
+      "last_round": 6
+    },
+    "custom-web-parsing": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/custom-web-parsing"
+    },
+    "daily-media-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/daily-media-pipeline"
+    },
+    "debugging-hermes-tui-commands": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/debugging-hermes-tui-commands"
+    },
+    "deep-values-elicitation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/deep-values-elicitation"
+    },
+    "deer-flow": {
+      "status": "missing",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "dataset_path": "datasets/skills/deer-flow",
+      "last_round": 1
+    },
+    "delegation": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/delegation",
+      "last_round": 6
+    },
+    "demo-video-production": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/demo-video-production"
+    },
+    "design-md": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/design-md"
+    },
+    "directory-reorganization": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/directory-reorganization"
+    },
+    "dogfood": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/dogfood",
+      "last_round": 6
+    },
+    "download-anything": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/download-anything",
+      "last_round": 6
+    },
+    "dspy": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/dspy"
+    },
+    "edge-cloud": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/edge-cloud"
+    },
+    "elite-longterm-memory": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/elite-longterm-memory"
+    },
+    "embodiment-directive": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/embodiment-directive"
+    },
+    "excalidraw": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/excalidraw"
+    },
+    "explore-and-test-python-tool": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/explore-and-test-python-tool"
+    },
+    "ffmpeg-ken-burns-portrait": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ffmpeg-ken-burns-portrait"
+    },
+    "ffmpeg-ken-burns-split-screen": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ffmpeg-ken-burns-split-screen"
+    },
+    "find-nearby": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/find-nearby"
+    },
+    "findmy": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/findmy"
+    },
+    "flux-image-gen": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/flux-image-gen"
+    },
+    "frontend": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/frontend",
+      "last_round": 6
+    },
+    "frontend-agent": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/frontend-agent",
+      "last_round": 6
+    },
+    "frontend-design-pro": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/frontend-design-pro",
+      "last_round": 6
+    },
+    "frontend-performance": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/frontend-performance",
+      "last_round": 6
+    },
+    "gepa-self-evolution": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/gepa-self-evolution",
+      "last_round": 6
+    },
+    "gepa-self-evolution-runner": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/gepa-self-evolution-runner"
+    },
+    "gguf": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/gguf"
+    },
+    "gif-search": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/gif-search"
+    },
+    "github-auth": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/github-auth"
+    },
+    "github-issues": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/github-issues"
+    },
+    "github-pr-workflow": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/github-pr-workflow"
+    },
+    "github-repo-management": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/github-repo-management"
+    },
+    "godmode": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/godmode"
+    },
+    "google-workspace": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/google-workspace"
+    },
+    "graphiti": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/graphiti",
+      "last_round": 6
+    },
+    "grpo-rl-training": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/grpo-rl-training"
+    },
+    "guidance": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/guidance"
+    },
+    "heartmula": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/heartmula"
+    },
+    "hermes-agent": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-agent"
+    },
+    "hermes-agent-skill-authoring": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-agent-skill-authoring"
+    },
+    "hermes-local-speech": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-local-speech"
+    },
+    "hermes-s6-container-supervision": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-s6-container-supervision"
+    },
+    "hermes-self-evolution": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-self-evolution"
+    },
+    "hermes-server-migration": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/hermes-server-migration"
+    },
+    "higgsfield-mcp": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/higgsfield-mcp"
+    },
+    "himalaya": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/himalaya"
+    },
+    "huggingface-hub": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/huggingface-hub"
+    },
+    "humanizer": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/humanizer"
+    },
+    "idea-validation-workflow": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/idea-validation-workflow",
+      "last_round": 6
+    },
+    "image-data-extraction": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/image-data-extraction"
+    },
+    "imessage": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/imessage"
+    },
+    "intelligence-services-automation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/intelligence-services-automation"
+    },
+    "jupyter-live-kernel": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/jupyter-live-kernel"
+    },
+    "kaggle-dataset-upload": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kaggle-dataset-upload"
+    },
+    "kaggle-kernel-debug": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kaggle-kernel-debug"
+    },
+    "kaggle-notebook-programmatic": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kaggle-notebook-programmatic"
+    },
+    "kagglerun-file-execution": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kagglerun-file-execution"
+    },
+    "kanban-codex-lane": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kanban-codex-lane"
+    },
+    "kanban-orchestrator": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kanban-orchestrator"
+    },
+    "kanban-worker": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kanban-worker"
+    },
+    "kokoro-tts-install": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/kokoro-tts-install"
+    },
+    "last30days-skill": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/last30days-skill",
+      "last_round": 6
+    },
+    "linear": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/linear"
+    },
+    "linux-vm-setup": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/linux-vm-setup"
+    },
+    "llama-cpp": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/llama-cpp"
+    },
+    "llm-fallback-minimax": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/llm-fallback-minimax",
+      "last_round": 6
+    },
+    "llm-wiki": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/llm-wiki"
+    },
+    "lm-evaluation-harness": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/lm-evaluation-harness"
+    },
+    "macos-computer-use": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/macos-computer-use"
+    },
+    "manim-animation-en": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/manim-animation-en",
+      "last_round": 6
+    },
+    "manim-video": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/manim-video"
+    },
+    "maps": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/maps"
+    },
+    "mcporter": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/mcporter"
+    },
+    "memory-setup": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/memory-setup"
+    },
+    "memory-setup-openclaw": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/memory-setup-openclaw",
+      "last_round": 6
+    },
+    "mermaid-architect": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/mermaid-architect",
+      "last_round": 6
+    },
+    "minecraft-modpack-server": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/minecraft-modpack-server"
+    },
+    "minimax-music": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/minimax-music",
+      "last_round": 6
+    },
+    "minimax-tts-video": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/minimax-tts-video",
+      "last_round": 6
+    },
+    "minimax-usage-check": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/minimax-usage-check"
+    },
+    "mirofish": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/mirofish"
+    },
+    "mneme-http-transport": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/mneme-http-transport"
+    },
+    "modal": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/modal"
+    },
+    "monitor-intelligence-services": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/monitor-intelligence-services",
+      "last_round": 6
+    },
+    "nano-pdf": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/nano-pdf"
+    },
+    "native-mcp": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/native-mcp"
+    },
+    "neural-memory": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/neural-memory",
+      "last_round": 6
+    },
+    "news-article-scraper": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/news-article-scraper"
+    },
+    "newspaper-daily-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/newspaper-daily-pipeline"
+    },
+    "newspaper-delivery": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/newspaper-delivery"
+    },
+    "newspaper-pdf-generator": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/newspaper-pdf-generator"
+    },
+    "newspaper-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/newspaper-pipeline"
+    },
+    "newspaper-regenerate-fix-psychology": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/newspaper-regenerate-fix-psychology"
+    },
+    "node-inspect-debugger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/node-inspect-debugger"
+    },
+    "notion-chunker": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-chunker"
+    },
+    "notion-codeflow-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-codeflow-logger"
+    },
+    "notion-content-limiter": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-content-limiter"
+    },
+    "notion-content-saver": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-content-saver"
+    },
+    "notion-daily-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-daily-logger"
+    },
+    "notion-database-page-debugging": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-database-page-debugging"
+    },
+    "notion-db-schema-verify": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-db-schema-verify"
+    },
+    "notion-emotion-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-emotion-logger"
+    },
+    "notion-finance-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-finance-logger"
+    },
+    "notion-ielts-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-ielts-logger"
+    },
+    "notion-learning-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-learning-logger"
+    },
+    "notion-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-logger"
+    },
+    "notion-personal-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-personal-logger"
+    },
+    "notion-research-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-research-logger"
+    },
+    "notion-uopeople-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-uopeople-logger"
+    },
+    "notion-vault-plan": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-vault-plan"
+    },
+    "notion-vibehire-logger": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-vibehire-logger"
+    },
+    "notion-workspace-audit": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/notion-workspace-audit"
+    },
+    "nullclaw-vibehire-setup": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/nullclaw-vibehire-setup"
+    },
+    "nvidia-nim-screenshots": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/nvidia-nim-screenshots"
+    },
+    "obliteratus": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/obliteratus"
+    },
+    "obsidian": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/obsidian"
+    },
+    "ocr-and-documents": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ocr-and-documents"
+    },
+    "ollama-cloud-workflow": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/ollama-cloud-workflow"
+    },
+    "open-design": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/open-design"
+    },
+    "opencode": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/opencode"
+    },
+    "openhue": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/openhue"
+    },
+    "osint-investigation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/osint-investigation"
+    },
+    "outlines": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/outlines"
+    },
+    "p5js": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/p5js"
+    },
+    "pangea-decentralized-internet": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pangea-decentralized-internet"
+    },
+    "paperbanana": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/paperbanana",
+      "last_round": 6,
+      "last_error_type": "hard_fail"
+    },
+    "paperclip": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/paperclip"
+    },
+    "pdf-to-presentation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pdf-to-presentation"
+    },
+    "peepshow": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/peepshow",
+      "last_round": 6
+    },
+    "peft": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/peft"
+    },
+    "pexoai-agent": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pexoai-agent",
+      "last_round": 6
+    },
+    "pexoai-agent_temp": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pexoai-agent_temp",
+      "last_round": 6
+    },
+    "pixel-art": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pixel-art"
+    },
+    "plan": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/plan"
+    },
+    "pokemon-player": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pokemon-player"
+    },
+    "polymarket": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/polymarket"
+    },
+    "popular-web-designs": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/popular-web-designs"
+    },
+    "powerpoint": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/powerpoint"
+    },
+    "pretext": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pretext"
+    },
+    "proactive-agent-lite": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/proactive-agent-lite",
+      "last_round": 6
+    },
+    "protocol-study-daily": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/protocol-study-daily"
+    },
+    "protocol-study-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/protocol-study-pipeline"
+    },
+    "python-debugpy": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/python-debugpy"
+    },
+    "python-syntax-debugging": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/python-syntax-debugging"
+    },
+    "pytorch-fsdp": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/pytorch-fsdp"
+    },
+    "qa-testing-bots": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/qa-testing-bots",
+      "last_round": 6
+    },
+    "remotion": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/remotion"
+    },
+    "remotion-video-creation": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/remotion-video-creation"
+    },
+    "requesting-code-review": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/requesting-code-review"
+    },
+    "research-paper-writing": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/research-paper-writing"
+    },
+    "saas-platform-research": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/saas-platform-research"
+    },
+    "scrapegraph-ai": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/scrapegraph-ai"
+    },
+    "security-auditor": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/security-auditor",
+      "last_round": 6
+    },
+    "segment-anything": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/segment-anything"
+    },
+    "self-improving-agent": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/self-improving-agent",
+      "last_round": 6
+    },
+    "send-email-with-pdf": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/send-email-with-pdf"
+    },
+    "senior-architect": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/senior-architect",
+      "last_round": 6
+    },
+    "senior-security": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/senior-security",
+      "last_error_type": "hard_fail",
+      "last_round": 6
+    },
+    "service-verification": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/service-verification"
+    },
+    "shadowbroker-setup": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/shadowbroker-setup"
+    },
+    "sketch": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/sketch"
+    },
+    "songsee": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/songsee"
+    },
+    "songwriting-and-ai-music": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/songwriting-and-ai-music"
+    },
+    "spike": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/spike"
+    },
+    "spotify": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/spotify"
+    },
+    "spotify-playlist-extract": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/spotify-playlist-extract"
+    },
+    "stable-diffusion": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/stable-diffusion"
+    },
+    "subagent-driven-development": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/subagent-driven-development"
+    },
+    "sulada-knowledge-base": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/sulada-knowledge-base",
+      "last_round": 6
+    },
+    "system-architect": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/system-architect",
+      "last_round": 6
+    },
+    "systematic-debugging": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/systematic-debugging"
+    },
+    "teams-meeting-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/teams-meeting-pipeline"
+    },
+    "test-driven-development": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/test-driven-development"
+    },
+    "test-master": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/test-master",
+      "last_round": 5
+    },
+    "tianshu-wan-video": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/tianshu-wan-video",
+      "last_round": 6
+    },
+    "tiktok-video-download": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/tiktok-video-download"
+    },
+    "touchdesigner-mcp": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/touchdesigner-mcp"
+    },
+    "trl-fine-tuning": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/trl-fine-tuning"
+    },
+    "unsloth": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/unsloth"
+    },
+    "use-tools": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/use-tools",
+      "last_round": 6
+    },
+    "vane": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/vane"
+    },
+    "verified-model-api-research": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/verified-model-api-research"
+    },
+    "vllm": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/vllm"
+    },
+    "webhook-subscriptions": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/webhook-subscriptions"
+    },
+    "weights-and-biases": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/weights-and-biases"
+    },
+    "whatsapp-bulk-messaging": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/whatsapp-bulk-messaging"
+    },
+    "whatsapp-bulk-sender": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/whatsapp-bulk-sender",
+      "last_round": 6
+    },
+    "whisper": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/whisper"
+    },
+    "working-with-abhinav": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/working-with-abhinav"
+    },
+    "writing-plans": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/writing-plans"
+    },
+    "x-research": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/x-research",
+      "last_round": 6
+    },
+    "xitter": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/xitter"
+    },
+    "xurl": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/xurl"
+    },
+    "youtube-content": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/youtube-content"
+    },
+    "yuanbao": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/yuanbao",
+      "last_round": 6
+    },
+    "zero-cost-ai-saas": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "dataset_path": "datasets/skills/zero-cost-ai-saas"
+    },
+    "gepa-llm-judge-metric": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "devpulse-audit-pipeline-fix": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "bitnet-inference": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "corpus-indexing-pipeline": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 0
+    },
+    "long-running-llm-loops": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 0
+    },
+    "python-telegram-bot-v22": {
+      "status": "missing",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "microsoft-skillopt": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "codebase-to-course-render": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "cron-pipeline-minimax-provider": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 1.0,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "cron-pipeline-llm-credentials": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 0.9,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "honest-research-extraction": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "resume-writing": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "cron-video-delivery-email": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "brandkit": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.8,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7,
+      "last_error_type": null
+    },
+    "design-taste-frontend": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "design-taste-frontend-v1": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "full-output-enforcement": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "gpt-taste": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "high-end-visual-design": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 5,
+      "last_error_type": null
+    },
+    "image-to-code": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "imagegen-frontend-mobile": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "imagegen-frontend-web": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "industrial-brutalist-ui": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "minimalist-ui": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "redesign-existing-projects": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 5,
+      "last_error_type": null
+    },
+    "stitch-design-taste": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6,
+      "last_error_type": null
+    },
+    "linux-native-service-bringup": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "coding-harness-cli-on-this-server": {
+      "status": "no_improvement",
+      "iterations": 1,
+      "results": {
+        "baseline": 1.0,
+        "evolved": 0.9,
+        "metric": "structural_v0"
+      },
+      "error": null,
+      "last_round": 7
+    },
+    "reportlab-worksheets": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "student-worksheet-pdf": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "study-mode": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    },
+    "news-topic-pulse": {
+      "status": "pending",
+      "iterations": 1,
+      "results": null,
+      "error": null,
+      "last_round": 6
+    }
+  },
+  "lock": {
+    "pid": null,
+    "started_at": null,
+    "skill": null
+  },
+  "round": 7,
+  "next_index": 18,
+  "order": [
+    "adhd-body-doubling",
+    "afrexai-qa-test-plan",
+    "afrexai-qa-testing-engine",
+    "bird-twitter",
+    "bitnet-inference",
+    "brandkit",
+    "browser-contenteditable-workaround",
+    "browser-use",
+    "ci-cd-pipeline",
+    "codebase-documenter",
+    "codebase-to-course-render",
+    "coderag",
+    "coding-harness-cli-on-this-server",
+    "comprehensive-tech-documentation",
+    "constitution-check",
+    "cron-pipeline-llm-credentials",
+    "cron-pipeline-minimax-provider",
+    "cron-video-delivery-email",
+    "cto",
+    "delegation",
+    "design-taste-frontend",
+    "design-taste-frontend-v1",
+    "devpulse-audit-pipeline-fix",
+    "dogfood",
+    "download-anything",
+    "frontend",
+    "frontend-agent",
+    "frontend-design-pro",
+    "frontend-performance",
+    "full-output-enforcement",
+    "gepa-llm-judge-metric",
+    "gepa-self-evolution",
+    "gpt-taste",
+    "graphiti",
+    "high-end-visual-design",
+    "honest-research-extraction",
+    "idea-validation-workflow",
+    "image-to-code",
+    "imagegen-frontend-mobile",
+    "imagegen-frontend-web",
+    "industrial-brutalist-ui",
+    "kagglerun-flux",
+    "last30days-skill",
+    "linux-native-service-bringup",
+    "llm-fallback-minimax",
+    "manim-animation-en",
+    "memory-setup-openclaw",
+    "mermaid-architect",
+    "microsoft-skillopt",
+    "minimalist-ui",
+    "minimax-music",
+    "minimax-tts-video",
+    "monitor-intelligence-services",
+    "neural-memory",
+    "news-topic-pulse",
+    "paperbanana",
+    "peepshow",
+    "pexoai-agent",
+    "pexoai-agent_temp",
+    "proactive-agent-lite",
+    "qa-testing-bots",
+    "redesign-existing-projects",
+    "reportlab-worksheets",
+    "resume-writing",
+    "security-auditor",
+    "self-improving-agent",
+    "senior-architect",
+    "senior-security",
+    "stitch-design-taste",
+    "student-worksheet-pdf",
+    "study-mode",
+    "sulada-knowledge-base",
+    "system-architect",
+    "test-master",
+    "tianshu-wan-video",
+    "use-tools",
+    "whatsapp-bulk-sender",
+    "x-research",
+    "yuanbao"
+  ],
+  "judge_cache": {}
+}

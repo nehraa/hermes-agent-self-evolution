@@ -137,8 +137,27 @@ def evolve(
     console.print(f"  Optimizer model: {optimizer_model}")
     console.print(f"  Eval model: {eval_model}")
 
-    # Configure DSPy
-    lm = dspy.LM(eval_model)
+    # Configure DSPy to use MiniMax from hermes-agent's .env
+    import os as _os
+    hermes_env = Path.home() / '.hermes' / '.env'
+    _minimax_key = None
+    if hermes_env.exists():
+        with open(hermes_env) as _f:
+            for _line in _f:
+                _stripped = _line.strip()
+                if _stripped.startswith('#'):
+                    continue
+                if _stripped.startswith('MINIMAX_API_KEY='):
+                    _minimax_key = _stripped.split('=', 1)[1]
+                    break
+    if not _minimax_key:
+        _minimax_key = _os.environ.get('MINIMAX_API_KEY', 'sk-cp-...WoyA')
+    _os.environ.setdefault("MINIMAX_API_KEY", _minimax_key)
+    _os.environ.setdefault("LITELLM_API_BASE", "https://api.minimax.io/v1")
+    if "minimax" in eval_model.lower():
+        lm = dspy.LM(eval_model, api_key=_os.environ["MINIMAX_API_KEY"], temperature=0.7, max_tokens=4096)
+    else:
+        lm = dspy.LM(eval_model)
     dspy.configure(lm=lm)
 
     # Create the baseline skill module
@@ -186,7 +205,7 @@ def evolve(
 
     # ── 7. Validate evolved skill ───────────────────────────────────────
     console.print(f"\n[bold]Validating evolved skill[/bold]")
-    evolved_constraints = validator.validate_all(evolved_body, "skill", baseline_text=skill["body"])
+    evolved_constraints = validator.validate_all(evolved_full, "skill", baseline_text=skill["raw"])
     all_pass = True
     for c in evolved_constraints:
         icon = "✓" if c.passed else "✗"

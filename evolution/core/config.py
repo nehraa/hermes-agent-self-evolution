@@ -50,7 +50,8 @@ def get_hermes_agent_path() -> Path:
     Priority:
     1. HERMES_AGENT_REPO env var
     2. ~/.hermes/hermes-agent (standard install location)
-    3. ../hermes-agent (sibling directory)
+    3. ~/.hermes (flat skills layout)
+    4. ../hermes-agent (sibling directory)
     """
     env_path = os.getenv("HERMES_AGENT_REPO")
     if env_path:
@@ -62,11 +63,16 @@ def get_hermes_agent_path() -> Path:
     if home_path.exists():
         return home_path
 
+    # Flat skills layout — skills live directly in ~/.hermes/skills
+    flat_path = Path.home() / ".hermes"
+    if (flat_path / "skills").exists():
+        return flat_path
+
     sibling_path = Path(__file__).parent.parent.parent / "hermes-agent"
     if sibling_path.exists():
         return sibling_path
 
     raise FileNotFoundError(
         "Cannot find hermes-agent repo. Set HERMES_AGENT_REPO env var "
-        "or ensure it exists at ~/.hermes/hermes-agent"
+        "or ensure it exists at ~/.hermes/hermes-agent or ~/.hermes/skills"
     )

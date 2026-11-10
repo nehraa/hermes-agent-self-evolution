@@ -1,0 +1,7 @@
+{
+  "skill_name": "bird-twitter",
+  "baseline_score": 1.0,
+  "evolved_score": 0.9,
+  "improvement": -0.1,
+  "metric": "structural_v0"
+}

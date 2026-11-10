@@ -1,0 +1,19 @@
+{
+  "skill_name": "coderag",
+  "baseline_score": 0.756,
+  "evolved_score": 0.76,
+  "improvement": 0.004,
+  "metric": "llm_judge_v1",
+  "baseline_dims": {
+    "structure": 0.85,
+    "specificity": 0.78,
+    "completeness": 0.72,
+    "conciseness": 0.68
+  },
+  "evolved_dims": {
+    "structure": 0.85,
+    "specificity": 0.75,
+    "completeness": 0.65,
+    "conciseness": 0.85
+  }
+}

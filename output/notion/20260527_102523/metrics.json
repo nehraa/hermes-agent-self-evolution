@@ -1,0 +1,17 @@
+{
+  "skill_name": "notion",
+  "timestamp": "20260527_102523",
+  "iterations": 3,
+  "optimizer_model": "openai/gpt-4.1",
+  "eval_model": "minimax/MiniMax-M2.7",
+  "baseline_score": 0.7272793098322633,
+  "evolved_score": 0.7272793098322633,
+  "improvement": 0.0,
+  "baseline_size": 14185,
+  "evolved_size": 14185,
+  "train_examples": 10,
+  "val_examples": 5,
+  "holdout_examples": 5,
+  "elapsed_seconds": 39.75983285903931,
+  "constraints_passed": true
+}

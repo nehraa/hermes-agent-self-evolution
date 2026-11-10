@@ -123,7 +123,26 @@ class SyntheticDatasetBuilder:
         n = num_cases or self.config.eval_dataset_size
 
         # Configure DSPy to use the judge model for generation
-        lm = dspy.LM(self.config.judge_model)
+        import os as _os
+        hermes_env = Path.home() / '.hermes' / '.env'
+        _minimax_key = None
+        if hermes_env.exists():
+            with open(hermes_env) as _f:
+                for _line in _f:
+                    _stripped = _line.strip()
+                    if _stripped.startswith('#'):
+                        continue
+                    if _stripped.startswith('MINIMAX_API_KEY='):
+                        _minimax_key = _stripped.split('=', 1)[1]
+                        break
+        if not _minimax_key:
+            _minimax_key = _os.environ.get('MINIMAX_API_KEY', 'sk-cp-...WoyA')
+        _os.environ.setdefault("MINIMAX_API_KEY", _minimax_key)
+        _os.environ.setdefault("LITELLM_API_BASE", "https://api.minimax.io/v1")
+        if "minimax" in self.config.judge_model.lower():
+            lm = dspy.LM(self.config.judge_model, api_key=_os.environ["MINIMAX_API_KEY"], temperature=0.7, max_tokens=4096)
+        else:
+            lm = dspy.LM(self.config.judge_model)
 
         with dspy.context(lm=lm):
             result = self.generator(
